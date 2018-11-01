@@ -1,3 +1,31 @@
+# Steps taken
+
+1. Forked, renamed and cloned https://github.com/udacity/reactnd-project-myreads-starter.
+
+2. `yarn install`, then [`yarn add react-router-dom`](https://www.npmjs.com/package/react-router-dom). React router dom is recommended by instructor on walkthrough.
+
+  * Import `BrowserRouter` in `src/index.js`
+  ```javascript
+  import { BrowserRouter } from 'react-router-dom';
+  ```
+  * Import `Route` in `src/App.js`
+  ```javascript
+  import { Route } from 'react-router-dom';
+  ```
+
+3. Examine the code, then refactor it. Create the following page components that will be used with *React Router Dom*, and react components that will be placed inside these new page components:
+  * `src/components/pages/MainPage.js'
+  * `src/components/pages/SearchPage.js`
+  * `src/components/Shelf.js`
+  * `src/components/Book.js`
+
+4. Modify `src/App.js`
+
+
+
+
+
+
 # MyReads Project
 
 This is the starter template for the final assessment project for Udacity's React Fundamentals course. The goal of this template is to save you time by providing a static example of the CSS and HTML markup that may be used, but without any of the React code that is needed to complete the project. If you choose to start with this template, your job will be to add interactivity to the app by refactoring the static code in this template.
